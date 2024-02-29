@@ -1,0 +1,227 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@font-face {
+    font-family: Megrim;
+    src: url(Контент/Megrim/Megrim.ttf);
+}
+@font-face {
+    font-family: Montserrat;
+    src: url(Контент/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(Контент/Roboto/Roboto.ttf);
+}
+    html {
+        box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    margin:0;
+    padding:0;
+    height:100%;
+    max-height:100%;
+    flex-direction: column;
+}
+
+.head_page{
+    width:1440px;
+    height:578px;
+}
+
+.menu{
+    display: inline-block;
+    padding-left: 45px;
+    padding-top: 48px;
+
+}
+
+.basket{
+font-family: Montserrat, sans-serif;
+font-weight: lighter;
+font-size: 65px;
+line-height: 79px;
+letter-spacing: 0em;
+text-align: left;
+flex-direction: column;
+position: absolute;
+top:215px;
+left:-70px;
+rotate: 270deg;
+}
+
+.icons{
+    display:flex;
+    flex-direction: column;
+    list-style-type: none;
+    gap:46px;
+    padding-left:1365px;
+    position: relative;
+    top:-25px
+}
+
+.vsite{
+    width:1440px;
+    height:627px;
+    font-family: Megrim, serif;
+font-size: 608px;
+font-weight: 500;
+line-height: 711px;
+letter-spacing: 0em;
+text-align: left;
+color:rgba(109, 109, 109, 0.05);
+position: absolute;
+left:10px;
+top:-50px;
+z-index: -1;
+}
+
+.text_empty{
+    width:891px;
+    height:139.51px;
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding-left:274px;
+    position: relative;
+    top:-135px;
+    
+}
+
+.text_line{
+width: 260px;
+border: 1px solid;
+border: 1px solid rgba(0, 0, 0, 0.6);
+position: relative;
+left:586px;
+top:-145px;
+}
+
+.footer_page{
+    height:795px;
+    width:1440px;
+}
+
+.foot{
+    display:flex;
+    width:798px;
+    height:459px;
+    padding-left:279px;
+    padding-top:6px;
+    gap:302px;
+}
+
+.cons{
+    font-family: Roboto;
+font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: left;
+
+font-family: Roboto;
+font-size: 16px;
+font-weight: 300;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: left;
+}
+
+.comp{
+    font-family: Roboto;
+font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: left;
+
+font-family: Roboto;
+font-size: 16px;
+font-weight: 300;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+.soc_media{
+    display: inline-flex;
+    list-style-type: none;
+    gap:50px;
+    padding-left:279px;
+    padding-top:157px;
+}
+
+.market{
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap:184px;
+    padding-left: 653px;
+    position: relative;
+    top:-43px
+}
+
+.apple{
+    display: inline-flex;
+    list-style-type: none;
+}
+.apple p{
+font-family: Roboto;
+font-size: 13px;
+font-weight: 300;
+line-height: 15px;
+letter-spacing: 0em;
+text-align: left;
+
+font-family: Roboto;
+font-size: 20px;
+font-weight: 400;
+line-height: 23px;
+letter-spacing: 0em;
+text-align: left;
+
+font-family: Roboto;
+font-size: 18px;
+font-weight: 300;
+line-height: 21px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.android{
+    display:inline-flex;
+    list-style-type: none;
+}
+
+.android p{
+    font-family: Roboto;
+font-size: 13px;
+font-weight: 300;
+line-height: 15px;
+letter-spacing: 0em;
+text-align: left;
+
+font-family: Roboto;
+font-size: 20px;
+font-weight: 400;
+line-height: 23px;
+letter-spacing: 0em;
+text-align: left;
+
+font-family: Roboto;
+font-size: 15px;
+font-weight: 300;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+

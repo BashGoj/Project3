@@ -1,0 +1,68 @@
+*{
+    padding:0;
+    margin:0;
+}
+html {
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: Manrope;
+    src: url(/BasketNew/Content/Manrope/Manrope.ttf);
+}
+@font-face {
+    font-family: Megrim;
+    src: url(/BasketNew/Content/Megrim/Megrim.ttf);
+}
+.page_1{
+    width: 700px;
+    height:1373px;
+    display: flex;
+    margin:0;
+    padding:0;
+    height:100%;
+    max-height:100%;
+    flex-direction: column;
+}
+
+.basket{
+    font-family: Manrope;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+    font-family: Megrim;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;
+    position: absolute;
+    top:17px;
+    left:30px;    
+
+}
+
+.noth{
+font-family: Megrim,sans-serif;
+font-size: 30px;
+font-weight: 500;
+line-height: 35px;
+letter-spacing: 0em;
+text-align: left;
+position: absolute;
+top:480px;
+left:221px;
+}
+
+.page_2{
+    width: 700px;
+    height:1337px;
+    display: flex;
+    margin:0;
+    padding:0;
+    height:100%;
+    max-height:100%;
+    flex-direction: column;
+}

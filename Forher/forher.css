@@ -1,0 +1,235 @@
+*{
+    padding:0;
+    margin:0;
+}
+@font-face {
+    font-family: Megrim;
+    src: url(/Forher/Content1/Megrim/Megrim.ttf;);
+}
+html {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(/Forher/Content1/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: Roboto;
+    src: url(/Forher/Content1/Roboto/Roboto.ttf);
+}
+@font-face {
+    font-family: Megrim;
+    src: url(/Forher/Content1/Megrim/Megrim.ttf);
+}
+body{
+    width:1440px;
+    height:2760px;
+    display: flex;
+    margin:0;
+    padding:0;
+    height:100%;
+    max-height:100%;
+    flex-direction: column;
+}
+
+.filter{
+    font-family: Montserrat;
+}
+
+.categ{
+    display: inline-flex;
+    list-style-type: none;
+    flex-direction: column;
+    gap: 27px;
+    position:absolute;
+    top:242px;
+    left:45px;
+}
+
+.categ li{
+font-family: Montserrat,sans-serif;
+font-size: 23px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+.icons{
+    display: inline-flex;
+    list-style-type: none;
+    flex-direction: column;
+    gap:46px;
+    position:absolute;
+    top:38px;
+    left:1368px;
+}
+
+.cat1{
+    display: inline-flex;
+    gap:65px;
+    position:absolute;
+    top:145px;
+    left:244px;
+    list-style-type: none;
+}
+
+.cat2{
+    display: inline-flex;
+    gap:65px;
+    list-style-type: none;
+    position:absolute;
+    top:689px;
+    left:244px;
+}
+
+.cat3{
+    display: inline-flex;
+    gap:65px;
+    list-style-type: none;
+    position:absolute;
+    top:1233px;
+    left:244px;
+}
+
+.numbers{
+    display: inline-flex;
+    list-style-type: none;
+    gap:84px;
+    position:absolute;
+    top:1839px;
+    left:452px;
+}
+
+.numbers li{
+    font-family: Montserrat;
+font-size: 23px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: left;
+}
+
+.foot{
+    display: inline-flex;
+    gap:300px;
+    position: absolute;
+    top:1990px;
+    left:277px;
+    flex-wrap: nowrap;}
+
+    .cons{
+        font-family: Roboto;
+font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: left;
+
+font-family: Roboto;
+font-size: 16px;
+font-weight: 300;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: left;
+
+    }
+
+.comp{
+    font-family: Roboto;
+font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: left;
+
+font-family: Roboto;
+font-size: 16px;
+font-weight: 300;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: left;
+}
+
+.soc_media{
+    display:inline-flex;
+    gap:50px;
+    list-style-type: none;
+    position: absolute;
+    top:2606px;
+    left:277px
+}
+
+.market{
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap:184px;
+    position: absolute;
+    top:2596px;
+    left:651px;
+}
+
+.apple{
+    display: inline-flex;
+    list-style-type: none;
+}
+.apple p{
+font-family: Roboto,sans-serif;
+font-size: 13px;
+font-weight: 300;
+line-height: 15px;
+letter-spacing: 0em;
+text-align: left;
+
+font-family: Roboto,sans-serif;
+font-size: 20px;
+font-weight: 400;
+line-height: 23px;
+letter-spacing: 0em;
+text-align: left;
+
+font-family: Roboto,sans-serif;
+font-size: 18px;
+font-weight: 300;
+line-height: 21px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.android{
+    display:inline-flex;
+    list-style-type: none;
+}
+
+.android p{
+    font-family: Roboto,sans-serif;
+font-size: 13px;
+font-weight: 300;
+line-height: 15px;
+letter-spacing: 0em;
+text-align: left;
+
+font-family: Roboto,sans-serif;
+font-size: 20px;
+font-weight: 400;
+line-height: 23px;
+letter-spacing: 0em;
+text-align: left;
+
+font-family: Roboto,sans-serif;
+font-size: 15px;
+font-weight: 300;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: left;
+}
+
+button:hover{
+    cursor: pointer;
+    outline-color: black;
+    outline-width: 1px;
+    outline-style: solid;
+}

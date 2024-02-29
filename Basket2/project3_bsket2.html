@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="project3_basket2.css">
+    <link href="/Basket2/Content/Megrim/Megrim.ttf" rel="stylesheet">
+    <link href="/Basket2/Content/Roboto/Roboto.ttf" rel="stylesheet">
+    <title>Продолжить корзина</title>
+</head>
+<body>
+    <main class="main_page">
+        <form>
+            <fieldset style="   width: 1440px;
+            height:2250px; border:none;">
+                <p class="vsite">VSite</p>
+                <p class="form" style="font-family: Roboto, sans-serif;">Оформление заказа</p>
+                <ul class="fill">
+                <li><label style="font-family: Roboto,sans-serif;">Имя</label>
+                    </li>
+                <li><label style="font-family: Roboto,sans-serif;">Фамилия</label>
+                </li>
+                <li><label style="font-family: Roboto,sans-serif;">Телефон</label>
+                </li>
+                <li><label style="font-family: Roboto,sans-serif;">Населенный <br>пункт</label>
+                </li>
+            </ul>
+            <ul class="field">
+                <li><input placeholder="Введите имя"></li>
+                <li><input placeholder="Введите фамилию"></li>
+                <li><input placeholder="+7 900 999 99 99"></li>
+                <li><input placeholder="Москва"></li>
+            </ul>
+            <h3 style="font-family: Roboto,sans-serif;
+            font-size: 30px;
+            font-weight: 300;
+            line-height: 35px;
+            letter-spacing: 0em;
+            text-align: left;
+            position: relative;
+            left:279px;
+            top:-304px
+            ">Способ доставки</h3>
+            <ul style="position: relative; top:-300px;">
+                <li style="padding-left: 451px; padding-top: 47px;"><input style="width: 30px; height: 30px;" type="radio" name="choice" id='option1' value="yes"><label for='option1'><span style="font-family: Roboto,sans-serif;
+                    font-size: 30px;
+                    font-weight: 300;
+                    line-height: 35px;
+                    letter-spacing: 0em;
+                    text-align: left;
+                    position: relative;
+                    left:20px;
+                    top:-3px
+                    ">Курьерская доставка </span></label></li>
+                <li style="padding-left: 451px; padding-top: 47px;"><input style="width:30px; height:30px;"type="radio" name="choice" id='option2' value="yes"><label for='option2'><span style="position: relative; left:20px; top:-6px; font-family: Roboto, sans-serif;
+                    font-size: 30px;
+                    font-weight: 300;
+                    line-height: 35px;
+                    letter-spacing: 0em;
+                    text-align: left;
+                    display: inline-block;
+                    ">Самовывоз</span><span style="display: inline-flex;position: relative; left:-134px; font-family: Roboto,sans-serif;
+font-size: 13px;
+font-weight: 300;
+line-height: 15px;
+letter-spacing: 0em;
+text-align: left;
+color: rgba(0, 0, 0, 0.6);
+"><br>Из магазина, сегодня в течении 4 часов, бесплатно
+                    <br>Из пункта выдачи или постамата</span></label></li>
+                <li style="padding-left: 451px; padding-top: 72px;"><input style="width:30px; height:30px; position: relative; top:-25px"type="radio" name="choice" id='option3' value="yes"><label for='option3'><span style="font-family: Roboto,sans-serif;
+                    font-size: 30px;
+                    font-weight: 300;
+                    line-height: 35px;
+                    letter-spacing: 0em;
+                    text-align: left;
+                    display: inline-block;
+                    position: relative;
+                    left:20px;
+                    top:-30px;
+                    display: inline-block;
+                    ">Почтовая доставка</span></label></li>
+                    
+            </ul>
+            <div class="adr">
+            <label style="font-family: Roboto, sans-serif;
+            display: inline-flex;
+            font-size: 30px;
+            font-weight: 300;
+            line-height: 35px;
+            letter-spacing: 0em;
+            text-align: left;
+            padding-left: 281px;
+            ">Адрес</label>
+            <input style="width:538px; height:67px; position: relative;left:82px;    background: linear-gradient(0deg, rgba(236, 236, 236, 0.4), rgba(236, 236, 236, 0.4)),
+            linear-gradient(0deg, rgba(236, 236, 236, 0.4), rgba(236, 236, 236, 0.4));
+            border: 1px solid rgba(0, 0, 0, 0.4)" placeholder="Улица"><br>
+                <ul class="inp_adress">
+            <li><input style="width:260px; height:67px;" placeholder="Дом"></li>
+            <li><input style="width:260px; height:67px;" placeholder="Квартира/офис"></li></ul>
+        </div>
+            <h3 style="font-family: Roboto, sans-serif;
+            font-size: 30px;
+            font-weight: 300;
+            line-height: 35px;
+            letter-spacing: 0em;
+            text-align: left;
+            padding-left: 279px;
+            position: relative;
+            top:-40px
+            ">Cпособ оплаты</h3>
+            <ul class="pay" style="display: inline-flex; flex-direction: column; list-style-type: none; padding-left: 450px;">
+                <li><input style='width:30px; height:30px; ' type="radio" name='choice1'value="option5"><label for="option5" style="font-family: Roboto,sans-serif;
+                    font-size: 30px;
+                    font-weight: 300;
+                    line-height: 35px;
+                    letter-spacing: 0em;
+                    text-align: left;
+                    position: relative;
+                    top:-5px;
+                    left:15px;
+                    "> При получении</label></li>
+                <li style="position: relative; top:44px"><input style='width:30px; height:30px; ' type="radio" name="choice1" value="option6"><label for="option6"><span style="font-family: Roboto,sans-serif;
+                    font-size: 30px;
+                    font-weight: 300;
+                    line-height: 35px;
+                    letter-spacing: 0em;
+                    text-align: left;
+                    position: relative;
+                    left:15px;
+                    top:-5px;
+                    "> Онлайн на сайте</span> <br><span style="font-family: Roboto,sans-serif;
+font-size: 13px;
+font-weight: 300;
+line-height: 15px;
+letter-spacing: 0em;
+text-align: left;
+position: relative;
+left:55px;
+top:-6px;
+color: rgba(0, 0, 0, 0.6);
+">-5% скидка на товары в корзине</span></label></li>
+                <li style="position: relative; top:70px"><input style='width:30px; height:30px; ' type="radio" name="choice1" value="option7"><label for="option7" style="font-family: Roboto,sans-serif;
+                    font-size: 30px;
+                    font-weight: 300;
+                    line-height: 35px;
+                    letter-spacing: 0em;
+                    text-align: left;
+                    position: relative;
+                    left:15px;
+                    top:-5pxl
+                    
+                    "> СБП<br><span style="font-family: Roboto,sans-serif;
+font-size: 13px;
+font-weight: 300;
+line-height: 15px;
+letter-spacing: 0em;
+text-align: left;
+position: relative;
+left:40px;
+top:-9px;
+color: rgba(0, 0, 0, 0.6);
+
+">-5% скидка на товары в корзине</span></label></li>
+            </ul>
+            <div class="but">
+                <ul style="list-style-type: none;">
+                    <li style="font-family: Roboto,sans-serif;
+                    font-size: 28px;
+                    font-weight: 300;
+                    line-height: 33px;
+                    letter-spacing: 0em;
+                    text-align: left;
+                    position: relative;
+                    top:41px;
+                    left:51px;
+                    ">Товары, 2 шт.</li>
+                    <li style="font-family: Roboto,sans-serif;
+                    font-size: 28px;
+                    font-weight: 300;
+                    line-height: 33px;
+                    letter-spacing: 0em;
+                    text-align: left;
+                    position: relative;
+                    left:522px;
+                    top: 9px;
+                    ">40,898 R</li>
+                </ul>
+                <div><input style="width: 310px; height:49px; position: relative; left:51px; top:26px;    background: linear-gradient(0deg, rgba(236, 236, 236, 0.4), rgba(236, 236, 236, 0.4)),
+                    linear-gradient(0deg, rgba(236, 236, 236, 0.4), rgba(236, 236, 236, 0.4));
+                    border: 1px solid rgba(0, 0, 0, 0.4)" placeholder="Промокод"><labe><button style="width: 128px; height:49px; position: relative; left:86px; top:26px; background: rgba(0, 0, 0, 1);
+"><span style="font-family: Roboto, sans-serif;
+width:105px;
+height:23px;
+font-size: 20px;
+font-weight: 300;
+line-height: 23.44px;
+letter-spacing: 0em;
+text-align: left;
+color: rgba(255, 255, 255, 1);
+">Применить</span></button></label></div>
+                <ul style="list-style-type: none;">
+                    <li style="font-family: Roboto,sans-serif;
+                    font-size: 28px;
+                    font-weight: 500;
+                    line-height: 33px;
+                    letter-spacing: 0em;
+                    text-align: left;
+                    position: relative;
+                    left:51px;
+                    top:46px;
+                    ">Итого</li>
+                    <li style="font-family: Roboto,sans-serif;
+                    font-size: 28px;
+                    font-weight: 500;
+                    line-height: 33px;
+                    letter-spacing: 0em;
+                    text-align: left;
+                    position: relative;
+                    left:522px;
+                    top:9px
+                    ">40,898 R</li>
+                </ul>
+                <div><button style="width:380px; height:58px;background: rgba(48, 170, 82, 1);
+border: 1px solid rgba(0, 0, 0, 0.4); position: relative; left:194px; top:37px"><span style="font-family: Roboto,sans-serif;
+font-size: 28px;
+font-weight: 400;
+line-height: 33px;
+letter-spacing: 0em;
+text-align: left;
+">Оформить заказ</span></button></div>
+            </div>
+            </fieldset>
+        </form>
+    </main>
+</body>
+</html>
